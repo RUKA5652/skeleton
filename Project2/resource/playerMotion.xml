@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actionList version ="1.0" name ="player">
+		<image name="walk" source="player/player_walk.png" key ="walk" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="-1" encoding ="csv">
+0,60,
+1,60,
+2,60,
+3,60
+				</anime>
+				<collider >
+0,0,32,32,
+0,0,32,32,
+0,0,32,32,
+0,0,32,32
+				</collider >
+		</image>
+		<image name="jump" source="player/player_jump.png" key ="jump" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="-1" encoding ="csv">
+0,2,
+1,1,
+2,3,
+3,1
+				</anime>
+		</image>
+		<image name="attack" source="player/player_attack.png" key ="attack" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="1" encoding ="csv">
+0,2,
+1,5,
+2,3,
+3,7
+				</anime>
+		</image>
+		<image name="die" source="player/player_die.png" key ="die" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="1" encoding ="csv">
+0,4,
+1,8,
+2,4,
+3,2
+				</anime>
+		</image>
+		<image name="foll" source="player/player_foll.png" key ="foll" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="-1" encoding ="csv">
+						0,4,
+						1,8,
+						2,4,
+						3,2
+				</anime>
+		</image>
+		<image name="idle" source="player/player_idle.png" key ="idle" divSizeX ="32" divSizeY="32" divCntX ="4" divCntY ="1">
+				<anime loop ="-1" encoding ="csv">
+						0,4,
+						1,8,
+						2,4,
+						3,2
+				</anime>
+		</image>
+</actionList>

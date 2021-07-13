@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseScene" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAgAAAAAAAAgAQAAAAAQAAAACIhAAAAA=</HashCode>
+      <FileName>class\BaseScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneMneg" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEgAAAAAAAIAABAgEAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>class\SceneMneg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScene" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAQAAAAIAAAAACAgAAAAA=</HashCode>
+      <FileName>class\TitleScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClosOver" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAQAEAA=</HashCode>
+      <FileName>class\transition\ClosOver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotAutDoor" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAABAAAAAAQSAAAAAAAAAAAEAQAAQg=</HashCode>
+      <FileName>class\transition\RotAutDoor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransitionScene" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBQAAAQAQAAAAAAAAAAAAAQAAAAAAAAAADAgQAAAA=</HashCode>
+      <FileName>class\transition\TransitionScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2Tmple&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMIAAAAAAAAEAAAAQAAAAkAAAABAABgAAEAAAE=</HashCode>
+      <FileName>class\common\Vector2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScene">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAABAAAQIAAAAAAACACAoAAAAA=</HashCode>
+      <FileName>class\GameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_DebugConOut" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAAAAAAAAAAABABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_debug\_DebugConOut.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_DebugDispOut" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YIMEggECGBCAAABEAoAYFAIABABEgBAAAFMABgQAAAA=</HashCode>
+      <FileName>_debug\_DebugDispOut.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Scene" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>class\BaseScene.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Transitoin" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>class\transition\TransitionScene.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FPS_SIDE" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>_debug\_DebugDispOut.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FPS_VER" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_debug\_DebugDispOut.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>

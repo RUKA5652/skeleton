@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modelList name =" Player" version ="1.0">
+		<ActNode name ="MoveLR">
+				<module name ="CheckKey" state ="Cnt" Key="Right">
+						<module name ="ChekState" state ="idle">
+								<moduel name ="SetAnime" state="walk"/>
+						</module>
+						<module name ="CheckHitMoveMap"  x="6">
+						</module>
+				</module>
+		</ActNode>
+		<ActNode name ="MoveLR">
+				<module name ="CheckKey" state ="Cnt" Key="Left">
+						<module name ="ChekState" state ="idle">
+								<moduel name ="SetAnime" state="walk"/>
+						</module>
+						<module name ="CheckHitMoveMap" x="-6">
+						</module>
+				</module>
+		</ActNode>
+		<ActNode name ="MoveUPDOWN">
+				<module name ="CheckHitMap" y ="2">
+						<module name ="CheckKey" state ="Cnt" Key="Up">
+								<module name ="SetAnime" state="jump"/>
+								<module name ="CheckHitMoveMapJymp" pow="15.0"/>
+						</module>
+				</module>
+				<module name ="CheckHitMoveMapJymp" grav="0.5">
+						<module name ="CheckHitMap" y ="-2">
+								<module name ="SetAnime" state="foll"/>
+						</module>
+						<module name ="ChekFoll">
+								<moduel name ="SetAnime" state="foll"/>
+						</module>
+				</module>
+		</ActNode>
+		<ActNode name ="MoveVec">
+				<module name ="MoveVecPlus"/>
+		</ActNode>
+		<ActNode name="SetIdle">
+				<module name ="CheckNonChangos">
+						<module name="SetAnime" state="idle"/>
+				</module>
+		</ActNode>
+		
+</modelList>
